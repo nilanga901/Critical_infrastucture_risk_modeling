@@ -4,17 +4,17 @@ This repository contains code and data for modeling and analyzing risks to criti
 
 ## Data Sources
 
-1. **Energy Infrastructure Data**: Obtained from the Homeland Infrastructure Foundation-Level Data, this dataset includes the locations (latitude and longitude coordinates) of power plants in the northeastern United States, along with information on generation type.
+1. **Energy Infrastructure Data**: Obtained from the Homeland Infrastructure Foundation-Level Data, this dataset includes the locations (latitude and longitude coordinates) of power plants in the northeastern United States, along with information on generation type.[1]
 
-2. **Precipitation Data**: Historical precipitation data (rain and snow storms) for the northeastern United States, obtained from NASA POWER DATA. This dataset provides precipitation information for each 0.25° latitude and 0.25° longitude coordinate in the region for the past four years.
+2. **Precipitation Data**: Historical precipitation data (rain and snow storms) for the northeastern United States, obtained from NASA POWER DATA. This dataset provides precipitation information for each 0.25° latitude and 0.25° longitude coordinate in the region for the past four years.[2]
 
-3. **Earthquake Data**: Historical earthquake intensity data for the northeastern United States, obtained from the U.S. Geological Survey's Earthquake Hazard Program. This dataset includes earthquake information with relevant latitude and longitude coordinates for the past four years.
+3. **Earthquake Data**: Historical earthquake intensity data for the northeastern United States, obtained from the U.S. Geological Survey's Earthquake Hazard Program. This dataset includes earthquake information with relevant latitude and longitude coordinates for the past four years.[3]
 
-4. **Disaster Declarations Data**: Historical statewide disaster declarations for the northeastern United States, obtained from the FEMA Web Disaster Declarations. This dataset includes information on disaster types and locations.
+4. **Disaster Declarations Data**: Historical statewide disaster declarations for the northeastern United States, obtained from the FEMA Web Disaster Declarations. This dataset includes information on disaster types and locations.[4]
 
-5. **Power Disturbances**: Historical power disturbance events in the northeastern United States, obtained from the ISER Electric Disturbance Events dataset.
+5. **Power Disturbances**: Historical power disturbance events in the northeastern United States, obtained from the ISER Electric Disturbance Events dataset.[5]
 
-6. **Fire Occurrence**: Historical data on wild and man-made fires in the northeastern United States, obtained from the National Interagency Fire Center. This dataset includes information on fire locations, types, and timelines.
+6. **Fire Occurrence**: Historical data on wild and man-made fires in the northeastern United States, obtained from the National Interagency Fire Center. This dataset includes information on fire locations, types, and timelines.[6]
 
 ## Constructed Datasets
 
@@ -66,3 +66,18 @@ The following models are developed and used for analysis:
 5. Quantum Neural Network: Classify breakdown rate.
 
 The code for learning conditional probability distributions with the Bayesian Network is available in `bayesian_net.py`. The code for all classification tasks is available in `baselines_quantum_DT_NB_DNN.ipynb`.
+
+
+Bibliography
+
+[1] Homeland Infrastructure Foundation-Level Data. (n.d.). Power Plants. Retrieved from https://hifld-geoplatform.opendata.arcgis.com/datasets/geoplatform::power-plants-2/about
+
+[2] NASA POWER Data. (n.d.). Retrieved from https://power.larc.nasa.gov/
+
+[3] U.S. Geological Survey's Earthquake Hazard Program. (n.d.). Earthquake Search. Retrieved from https://earthquake.usgs.gov/earthquakes/search/
+
+[4] FEMA OpenFEMA Data Page. (n.d.). FEMA Web Disaster Declarations v1. Retrieved from https://www.fema.gov/openfema-data-page/fema-web-disasterdeclarations-v1
+
+[5] U.S. Department of Energy. (n.d.). ISER Electric Disturbance Events. Retrieved from https://www.oe.netl.doe.gov/oe417.aspx
+
+[6] National Interagency Fire Center. (n.d.). InForm Fire Occurrence Data Records. Retrieved from https://data-nifc.opendata.arcgis.com/datasets/nifc::informfire-occurrence-data-records/explore?location=43.590069%2C-71.436469%2C6.78&showTable=true
