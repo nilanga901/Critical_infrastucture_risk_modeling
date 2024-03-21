@@ -1,12 +1,10 @@
 import pandas as pd
 from shapely.geometry import Point
 
-
-# Example usage
-file_path = 'FemaWebDisasterDeclarations.csv'  # Replace with the actual path to your CSV file
+#fema diasater declarations
+file_path = 'FemaWebDisasterDeclarations.csv'  #Replace with the actual path to your CSV file
 df = pd.read_csv(file_path)
 
-# Now, shapely_points contains a list of Shapely Point objects created from the 'X' and 'Y' columns in the DataFrame
 df['declarationDate'] = pd.to_datetime(df['declarationDate'])
 
 # Add a new column 'month' based on the 'declarationDate'
@@ -27,7 +25,7 @@ df_subset = df[columns_to_keep]
 print(df_subset)
 
 
-
+#%% Power plant disruption
 import os
 import pandas as pd
 
@@ -53,8 +51,7 @@ combined_df = pd.concat(dfs, ignore_index=True)
 
 combined_df['Area Affected'] = combined_df['Area Affected'].str.split(':').str[0]
 
-
-
+#north eastern states
 valid_states = ['Maine', 'New Hampshire', 'Vermont', 'Massachusetts', 'Rhode Island', 'Connecticut', 'New York', 'New Jersey', 'Pennsylvania']
 combined_df = combined_df[combined_df['Area Affected'].isin(valid_states)]
 

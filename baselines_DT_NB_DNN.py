@@ -373,7 +373,6 @@ report = classification_report(y_test_np, predicted_np)
 # Print the report
 print(report)
 
-
 #%%
 # Import necessary libraries
 # Import necessary libraries

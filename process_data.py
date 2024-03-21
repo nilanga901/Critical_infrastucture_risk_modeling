@@ -3,6 +3,7 @@ import pandas as pd
 import geopandas as gpd
 from shapely.geometry import Polygon
 
+#generate grid
 def generate_squares(min_lat, max_lat, min_lon, max_lon, step):
     squares = []
     for lat in range(int(min_lat * 100), int(max_lat * 100), int(step * 100)):
@@ -14,6 +15,7 @@ def generate_squares(min_lat, max_lat, min_lon, max_lon, step):
             squares.append(square)
     return squares
 
+#coordinate to US state
 def get_us_state(lat, lon):
     geolocator = Nominatim(user_agent="get_us_state")
     location = geolocator.reverse((lat, lon), language='en')
@@ -55,7 +57,6 @@ gdf['state'] = gdf.apply(lambda row: get_us_state(row.geometry.centroid.y, row.g
 print(gdf)
 
 
-# Optionally, you can save the GeoDataFrame to a shapefile or other formats
 # gdf.to_file("squares_northeast_usa_with_states.shp")
 #%%
 
@@ -77,8 +78,7 @@ state_name_mapping = {
 }
 gdf['state'] = gdf['state'].map(state_name_mapping)
 
-#%%
-
+#%% proccess power plant data
 def read_power_plants_csv(file_path):
     try:
         # Read the CSV file into a DataFrame, keeping only the specified columns
@@ -96,7 +96,7 @@ def read_power_plants_csv(file_path):
 file_path = 'power_plants.csv'
 df=read_power_plants_csv(file_path)
 
-#%%
+#%% #filter power plant data
 states_to_keep = ['NY', 'NJ', 'PA', 'CT', 'RI', 'MA', 'ME', 'NH', 'VT']
 
 # Filter the DataFrame
@@ -506,6 +506,7 @@ result = result.rename(columns={'PRECTOTCORR': 'precipitation',
 
 #%%
 
+#create final DF
 final_df_geo=result
 # Assuming 'results' is your DataFrame
 final_df_geo['fire_risk'] = pd.qcut(final_df_geo['fire_risk'], q=[0, 0.25, 0.5, 0.75, 1], labels=False)
