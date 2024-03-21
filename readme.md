@@ -1,6 +1,7 @@
 # Critical Infrastructure Risk Modeling
 
-This repository contains code and data for modeling and analyzing risks to critical infrastructure in the northeastern United States. The project utilizes various data sources, including energy infrastructure, precipitation, earthquake, disaster declarations, power disturbances, and fire occurrence data.
+This repository contains code for modeling and analyzing risks to critical infrastructure in the northeastern United States. The project utilizes various data sources, including energy infrastructure, precipitation, earthquake, disaster declarations, power disturbances, and fire occurrence data.
+Data sets are not uploaded due to file size.
 
 ## Data Sources
 
