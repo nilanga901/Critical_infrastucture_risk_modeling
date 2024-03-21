@@ -1,101 +1,68 @@
-Critical_infrastucture_risk_modeling
+# Critical Infrastructure Risk Modeling
 
+This repository contains code and data for modeling and analyzing risks to critical infrastructure in the northeastern United States. The project utilizes various data sources, including energy infrastructure, precipitation, earthquake, disaster declarations, power disturbances, and fire occurrence data.
 
-Data Sources
+## Data Sources
 
-1)Energy Infrastructure Data:
-We use Energy Infrastructure data to collect the power plant locations in the north-east region. This is obtained from Homeland Infrastructure Foundation-Level Data. This consists of the Latitude and Longitutdes cooridantes of all power plants in north-east US including the generation type and more information.
+1. **Energy Infrastructure Data**: Obtained from the Homeland Infrastructure Foundation-Level Data, this dataset includes the locations (latitude and longitude coordinates) of power plants in the northeastern United States, along with information on generation type.
 
+2. **Precipitation Data**: Historical precipitation data (rain and snow storms) for the northeastern United States, obtained from NASA POWER DATA. This dataset provides precipitation information for each 0.25° latitude and 0.25° longitude coordinate in the region for the past four years.
 
-2)Precipitation Data:
-We use Precipitation data to collect the historical rain storm and snow storm data
-in the north-east region. This is obtained from NASA POWER DATA [3]. This
-consists of the historical precipitation information for each 0.25 Latitude and 0.25
-Longitutdes coordinates of the northeast USA for the past 4 years.
+3. **Earthquake Data**: Historical earthquake intensity data for the northeastern United States, obtained from the U.S. Geological Survey's Earthquake Hazard Program. This dataset includes earthquake information with relevant latitude and longitude coordinates for the past four years.
 
-3)Earthquake Data:
-We use Earthquake Occurrence data to collect the historical intensity of earthquakes recorded in the north-east region.  This is obtained from U.S Geological Survey: Earthquake Hazard Program. This consists of the historical earthquake information for each occurred with relevant latitude and longitude coordinates of the northeast USA for the past 4 years.
+4. **Disaster Declarations Data**: Historical statewide disaster declarations for the northeastern United States, obtained from the FEMA Web Disaster Declarations. This dataset includes information on disaster types and locations.
 
-4)Disaster Declarations Data:
-We use Disaster Declarations data to collect the historical declarations of statewide disasters recorded in the north-east region. This is obtained from FEMA Web Disaster Declarations. This consists of the historical disaster declaration information for each that occurred with relevant diaster type at the northeast.
+5. **Power Disturbances**: Historical power disturbance events in the northeastern United States, obtained from the ISER Electric Disturbance Events dataset.
 
-5)Power Disturbances:
-We use power disturbances data to analyze how the historical disturbances have occurred in north-east region. This data is obtained from ISER Electric Disturbance Events. This consists of the historical Power Disturbances information for each event occurred.
+6. **Fire Occurrence**: Historical data on wild and man-made fires in the northeastern United States, obtained from the National Interagency Fire Center. This dataset includes information on fire locations, types, and timelines.
 
-6)Fire Occurrence
-We use Fire Occurrence data to analyze how the historical wild and man-made
-fires have occurred in the north-east region. This data is obtained from National
-Interagency Fire Center. This consists of information on the location, fire type
-and timeline for each event that occurred.
+## Constructed Datasets
 
+The following datasets are constructed by running the `process_data.py` script:
 
-Constructed Datasets
+### Dataset 1
 
-Each of the following dataset is pre-processsed and constructed by calling precess_data.py. 
+This dataset encodes geographical features to enable predictions of vulnerability conditioned on geo-location. It includes the following features:
 
-Dataset 1: 
-We use Dataset 1 to encode geographical features to enable predictions of vulnerability conditioned on the geo-location. In this dataset we have the following
-features.
+- Geographical Location: A grid tiling of the northeastern region by 0.5° × 0.5° latitude and longitude.
+- State: The state corresponding to each grid square's location.
+- Generation Type: The majority power generation type for each grid square.
+- Earthquake Risk: A binary feature indicating whether an earthquake has occurred at each grid location.
+- Precipitation: Average daily precipitation for each grid square, quantized into bins created by quartiles.
+- Fire Risk: The number of reported fires at each grid location, quantized into bins created by quartiles.
 
-i. Geographical Location -We consider a grid tiling of the north east region by 0.5 × 0.5 degrees of latitudes and longitudes. For each grid point, we evaluate the next features.
+### Dataset 2
 
-ii. State - We use the lat, long coordinate of each grid square to assign them to the corresponding state and we create a column with state information for each point.
+This dataset encodes time-dependent seasonality into features to enable predictions of hazards conditioned on the location (state) and month of the year. It includes the following features:
 
-iii. Generation Type - For each geo-location given by 0.5 × 0.5 square on the grid, we evaluate the power generation and assign the majority generation as the generation type of that block.
+- Month: The month of the year used as an anchor point for evaluating other features.
+- State: The state corresponding to each data point.
+- Disaster Types: The types of disasters declared in each state and month, obtained from FEMA disaster declarations.
+- Breakdown Rate: The average breakdown rate for each state and month combination, quantized into bins created by quartiles.
+- Precipitation: The average daily precipitation for each state and month combination, quantized into bins created by quartiles.
 
-iv. Earthquake Risk -  For each geo-location given by 0.5 × 0.5 square on the grid, we evaluate whether an earthquake has happened at this location and assign 1 or 0 to create a binary
-feature column.
+## Model Development
 
-v. Precipitation - For each geo-location given by 0.5 × 0.5 square on the grid, we evaluate the average daily precipitation to create a continuous feature vector. As the learning models we use are better suited for discrete variables, we quantize the continuous feature to bins created by the quartiles. 
+The following models are developed and used for analysis:
 
-vi. Fire Risk - For each geo-location given by 0.5 × 0.5 square on the grid, we evaluate the fire
-risk by looking at the number of reported fires at each grid location historically. This creates a continuous feature vector. As the models we use are better suited for discrete variables, we quantize the continuous feature to bins created by the quartiles.
+**For Dataset 1:**
 
+1. Bayesian Network: Learn conditional probability distributions.
+2. Decision Tree Classifier: Classify fire risk.
+3. Naive Bayes Classifier: Classify fire risk.
+4. Deep Neural Network: Classify fire risk.
+5. Quantum Neural Network: Classify fire risk.
+6. Decision Tree Classifier: Classify earthquake risk.
+7. Naive Bayes Classifier: Classify earthquake risk.
+8. Deep Neural Network: Classify earthquake risk.
+9. Quantum Neural Network: Classify earthquake risk.
 
-Dataset 2:
+**For Dataset 2:**
 
-We use Dataset 2 to encode time-dependent seasonality into features to enable
-predictions of hazards conditioned on the location given by state and the month of
-the year. In this dataset, we have the following features.
+1. Bayesian Network: Learn conditional probability distributions.
+2. Decision Tree Classifier: Classify breakdown rate.
+3. Naive Bayes Classifier: Classify breakdown rate.
+4. Deep Neural Network: Classify breakdown rate.
+5. Quantum Neural Network: Classify breakdown rate.
 
-i.Month - We consider the month of the year as the anchor point to evaluate the rest of the
-features. This enables to look at the temporal and seasonal aspects of the data,
-while Dataset 1 looks at the spatial distribution.
-
-ii. State - For each of the following features, we use the corresponding state and create a
-column with state information for each point as information such as disaster declarations are mostly state-wide.
-
-iii. Disaster Types - From the disaster declrations from FEMA, we create the this feature. We also
-add the corresponding month and the state to the dataset as well.
-
-iv. Breakdown Rate - For each month and state combination, we evaluate the average breakdown rate
-and add this as a feature. As the learning models we use are better suited for discrete variables, we quantize the continuous feature to bins created by the quartiles. 
-
-v. Precipitation - For each month and state combination, we evaluate the average daily precipitation
-to create a continuous feature vector. As the learning models we use are better suited for discrete variables, we quantize the continuous feature to bins created by the quartiles. 
-
-
-
-Model Development
-
-In this section we describe the model development for analysis. We use the following models for the two datasets.
-
-For Dataset 1:
-1. Learn conditional probability Distributions - Bayesian Network
-2. Classify fire risk - Decision Tree
-3. Classify fire risk - Naive Bayes Classifier
-4. Classify fire risk - Deep Neural Network
-5. Classify fire risk - Quantum Neural Network
-6. Classify earthquake risk - Decision Tree
-7. Classify earthquake risk - Naive Bayes Classifier
-8. Classify earthquake risk - Deep Neural Network
-9. Classify earthquake risk - Quantum Neural Network
-For Dataset 2:
-1. Learn conditional probability Distributions - Bayesian Network
-2. Classify breakdown rate - Decision Tree
-3. Classify breakdown rate - Naive Bayes Classifier
-4. Classify breakdown rate - Deep Neural Network
-5. Classify breakdown rate - Quantum Neural Network
-
-Code for learning conditional probability Distributions with  Bayesian Network : bayesian_net.py
-Code for all classifications : baselines_quantum_DT_NB_DNN.ipynb
+The code for learning conditional probability distributions with the Bayesian Network is available in `bayesian_net.py`. The code for all classification tasks is available in `baselines_quantum_DT_NB_DNN.ipynb`.
