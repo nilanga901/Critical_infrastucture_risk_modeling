@@ -1,13 +1,13 @@
 import pandas as pd
 import bnlearn as bn
 
-# Assuming the CSV file is in the same directory as your script or Jupyter notebook
+# Assuming the CSV file is in the same directory 
 file_path = 'geo_fire_precip_gen_eq.csv'
 
 # Read the CSV file into a pandas DataFrame
 df_geo= pd.read_csv(file_path)
 
-# Assuming the CSV file is in the same directory as your script or Jupyter notebook
+# Assuming the CSV file is in the same directory
 file_path = 'state_precip_disas_break_.csv'
 
 # Read the CSV file into a pandas DataFrame
