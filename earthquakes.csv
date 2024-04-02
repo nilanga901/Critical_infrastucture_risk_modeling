@@ -1,0 +1,59 @@
+time,latitude,longitude,depth,mag,magType,nst,gap,dmin,rms,net,id,updated,place,type,horizontalError,depthError,magError,magNst,status,locationSource,magSource
+2023-11-30T20:12:17.846Z,47.5536,-70.2725,15.474,2.5,ml,5,176,0.036,0.21,us,us7000lezz,2023-12-02T05:43:36.040Z,"14 km SW of La Malbaie, Canada",earthquake,4.97,2.152,0.256,2,reviewed,us,us
+2023-11-13T03:45:57.657Z,41.3646,-67.4129,10,2.6,mb_lg,19,247,2.63,0.56,us,us6000lnc1,2023-11-27T03:55:28.040Z,"213 km E of Siasconset, Massachusetts",earthquake,11.42,2.022,0.193,7,reviewed,us,us
+2023-11-02T12:14:56.465Z,46.6045,-74.2513,10.2,2.5,ml,11,110,0.439,0.35,us,us7000l8th,2023-11-04T05:48:31.040Z,"26 km WSW of Saint-Michel-des-Saints, Canada",earthquake,3.52,8.456,0.081,20,reviewed,us,us
+2023-09-24T23:59:29.388Z,45.7301,-73.4849,5.178,2.7,mb_lg,32,82,0.249,0.58,us,us7000kxw7,2023-10-30T20:23:00.846Z,"1 km N of Charlemagne, Canada",earthquake,5.2,7.726,0.117,19,reviewed,us,us
+2023-08-11T03:33:28.128Z,47.5714,-70.1402,19.821,2.6,mb_lg,14,156,0.128,0.47,us,us6000kz6s,2023-10-17T22:01:30.040Z,"St. Lawrence Valley region, Quebec, Canada",earthquake,3.49,3.95,0.142,13,reviewed,us,us
+2023-08-08T22:04:21.806Z,44.3159,-70.2573,9.435,2.5,mb_lg,20,126,0.353,0.38,us,us6000kyr7,2023-10-17T22:01:28.040Z,"6 km N of Turner, Maine",earthquake,2.46,6.846,0.208,6,reviewed,us,us
+2023-07-08T23:15:37.190Z,46.5956,-76.1192,10,2.8,mb_lg,17,100,1.149,0.39,us,us6000kr0w,2023-09-09T21:55:02.040Z,"14 km NW of Saint-Boniface, Canada",earthquake,1.97,2,0.057,80,reviewed,us,us
+2023-07-04T03:54:16.030Z,46.1633,-75.5683,13.668,2.6,mb_lg,17,92,0.709,0.32,us,us6000kpze,2023-09-09T21:54:44.040Z,"35 km ESE of Saint-Raphaël, Canada",earthquake,3.62,12.395,0.084,38,reviewed,us,us
+2023-04-25T13:49:07.191Z,43.7796,-71.4803,8.286,2.9,mb_lg,23,98,0.141,0.2,us,us7000jvs7,2023-07-11T01:44:36.040Z,"4 km SW of Center Sandwich, New Hampshire",earthquake,1.24,3.039,0.071,52,reviewed,us,us
+2023-04-24T22:16:17.744Z,47.1382,-76.1399,9.813,3.4,mb_lg,25,119,1.43,0.39,us,us7000jvnf,2023-07-11T01:44:39.040Z,"",earthquake,4.43,7.379,0.059,77,reviewed,us,us
+2023-04-23T18:10:08.198Z,43.8635,-76.0202,8.68,3.6,mwr,63,38,0.454,0.5,us,us6000k6kx,2023-08-29T21:47:45.955Z,"New York",earthquake,2.55,4.258,0.046,45,reviewed,us,us
+2023-04-14T05:30:33.480Z,43.86,-76.0249,6.377,2.6,mb_lg,30,40,0.45,0.41,us,us6000k48t,2023-06-17T21:36:52.040Z,"1 km W of Adams Center, New York",earthquake,2.59,7.667,0.068,57,reviewed,us,us
+2023-03-19T20:38:12.420Z,45.9988,-75.0901,10.323,2.5,mb_lg,19,90,0.434,0.43,us,us7000jlbt,2023-05-26T21:54:06.040Z,"Quebec, Canada",earthquake,2.58,13.355,0.255,4,reviewed,us,us
+2023-02-06T11:15:49.769Z,42.8605,-78.7853,5.677,3.8,mb_lg,23,114,0.389,0.47,us,us6000jlqv,2023-11-28T01:46:10.773Z,"1 km NE of West Seneca, New York",earthquake,2.18,7.439,0.208,6,reviewed,us,us
+2023-01-31T12:10:28.855Z,43.1423,-67.4126,9.589,2.6,ml,16,184,1.565,0.41,us,us6000jkp3,2023-04-13T21:53:15.040Z,"130 km SW of Yarmouth, Canada",earthquake,4.96,8.594,0.074,24,reviewed,us,us
+2023-01-31T02:22:21.423Z,42.9925,-67.212,9.99,2.6,ml,22,219,1.724,0.93,us,us6000jknx,2023-04-13T21:53:15.040Z,"Gulf of Maine",earthquake,7.32,8.844,0.077,22,reviewed,us,us
+2023-01-14T06:27:22.051Z,44.6651,-68.5787,9.593,3.3,mb_lg,23,123,0.78,0.34,us,us7000j4c9,2023-04-05T16:32:14.310Z,"7 km ESE of Dedham, Maine",earthquake,2.09,7.056,0.079,43,reviewed,us,us
+2022-12-25T09:51:51.026Z,47.4889,-70.1479,12.31,2.9,ml,17,99,0.851,0.64,us,us6000jbr9,2023-03-07T18:59:50.040Z,"",earthquake,2.9,8.7,0.115,10,reviewed,us,us
+2022-11-15T02:23:33.302Z,45.7212,-73.6966,7.952,3,mb_lg,28,82,0.227,0.39,us,us7000iprx,2023-10-15T04:49:14.617Z,"southern Quebec, Canada",earthquake,1.85,7.558,0.073,50,reviewed,us,us
+2022-09-01T19:46:28.558Z,44.6768,-67.6344,5,2.6,mb_lg,13,155,0.13,0.49,us,us7000i4ff,2023-02-01T13:52:44.062Z,"4 km SE of Centerville, Maine",earthquake,2.4,1.981,0.132,15,reviewed,us,us
+2022-08-28T16:39:43.907Z,45.9449,-74.82,10.603,2.5,mb_lg,20,75,0.331,0.37,us,us7000i34u,2022-11-06T04:38:42.040Z,"21 km ESE of Notre-Dame-du-Mont-Carmel, Canada",earthquake,2.77,1.759,0.1,26,reviewed,us,us
+2022-08-17T06:55:10.672Z,44.687,-67.6413,5,3,mb_lg,13,173,0.133,0.23,us,us6000ibip,2022-10-28T02:26:41.040Z,"3 km SE of Centerville, Maine",earthquake,1.73,1.981,0.082,39,reviewed,us,us
+2022-08-16T12:48:27.523Z,44.6772,-67.6276,5,2.6,mb_lg,12,165,0.125,0.26,us,us6000ibah,2022-10-28T02:26:26.040Z,"4.7 km WNW of Jonesboro, Maine",earthquake,2.27,1.959,0.114,20,reviewed,us,us
+2022-08-11T23:09:05.053Z,44.7073,-67.624,6.204,2.8,mb_lg,12,163,0.119,0.23,us,us6000ia24,2022-10-21T23:20:40.040Z,"4 km E of Centerville, Maine",earthquake,2.33,5.024,0.084,37,reviewed,us,us
+2022-08-11T11:29:11.457Z,44.6943,-67.6224,4.045,2.8,mb_lg,13,164,0.508,0.36,us,us6000i9x7,2022-10-21T23:20:32.040Z,"Maine",earthquake,2.74,7.146,0.092,31,reviewed,us,us
+2022-07-27T04:52:50.487Z,44.6505,-74.5534,5,2.5,mb_lg,25,55,0.037,0.46,us,us6000i5tm,2022-10-01T22:09:22.040Z,"2 km SSW of Saint Regis Falls, New York",earthquake,1.8,1.976,0.085,36,reviewed,us,us
+2022-05-10T14:12:14.925Z,45.3264,-76.2178,10.92,2.5,mb_lg,17,138,0.741,0.43,us,us7000h8by,2022-07-22T18:31:11.040Z,"southern Ontario, Canada",earthquake,1.5,8.5,0.18,8,reviewed,us,us
+2022-04-23T21:02:56.051Z,45.2228,-69.1376,4.99,2.5,mb_lg,13,97,0.116,0.2,us,us6000hfx6,2022-07-05T03:39:49.040Z,"5 km SSW of Sebec, Maine",earthquake,1.4,3.4,0.193,7,reviewed,us,us
+2022-04-16T02:10:49.855Z,44.0163,-67.67,10,2.6,ml,,192,0.707,0.32,us,us7000h2lz,2022-06-26T01:18:18.040Z,"53 km SE of Winter Harbor, Maine",earthquake,3,2,0.061,35,reviewed,us,us
+2022-03-15T15:11:29.142Z,42.6923,-78.1505,5,2.6,mb_lg,,49,0.522,0.31,us,us6000h4qr,2022-06-09T01:31:02.645Z,"5 km SSW of Warsaw, New York",earthquake,1.9,2,0.089,33,reviewed,us,us
+2022-02-19T22:43:05.749Z,47.5045,-70.0662,16.7,2.9,ml,,101,0.181,0.3,us,us7000gmcv,2022-05-04T13:38:43.040Z,"14 km NW of Saint-Pacôme, Canada",earthquake,3.5,3.3,0.064,32,reviewed,us,us
+2022-02-15T05:53:44.643Z,45.8832,-73.58,9.15,2.7,ml,,86,0.384,0.45,us,us7000gkzp,2022-04-30T14:18:14.040Z,"8 km WNW of L'Épiphanie, Canada",earthquake,4.6,8,0.062,34,reviewed,us,us
+2022-02-04T05:39:25.109Z,44.3858,-71.175,8.31,2.9,mb_lg,,51,0.188,0.37,us,us7000ght9,2023-07-27T11:06:28.146Z,"0 km SSW of Gorham, New Hampshire",earthquake,3.7,5.7,0.079,42,reviewed,us,us
+2022-01-11T17:52:01.033Z,45.0191,-66.973,5,2.6,ml,,168,0.135,0.9,us,us7000gbls,2022-03-19T22:07:47.040Z,"8 km SE of Saint Andrews, Canada",earthquake,1.7,2,0.069,28,reviewed,us,us
+2021-12-07T10:12:11.598Z,43.3084,-70.0048,10,2.6,ml,,153,0.851,0.32,us,us6000gacb,2022-02-12T23:06:34.040Z,"38 km SE of Old Orchard Beach, Maine",earthquake,2.1,2,0.115,10,reviewed,us,us
+2021-08-27T15:49:29.298Z,46.8485,-76.5006,14.41,3.3,mwr,,103,1.486,0.63,us,us7000f4w1,2021-11-06T20:29:00.040Z,"55 km NW of Saint-Boniface, Canada",earthquake,5.2,7.1,,10,reviewed,us,slm
+2021-08-09T20:10:51.875Z,46.3594,-72.2706,19.97,2.7,mb_lg,,117,1.276,0.46,us,us6000f3nv,2021-10-23T15:45:58.040Z,"12 km E of Bécancour, Canada",earthquake,2.5,7.3,0.071,51,reviewed,us,us
+2021-07-14T23:35:50.149Z,44.9611,-74.9924,7.06,2.8,mb_lg,,49,0.204,0.51,us,us7000em1a,2021-09-17T22:50:35.040Z,"8 km WNW of Massena, New York",earthquake,2.7,7.9,0.057,79,reviewed,us,us
+2021-06-14T14:19:12.535Z,47.1434,-70.6889,11.97,2.6,ml,,83,0.474,0.11,us,us7000ed48,2021-08-26T21:59:19.040Z,"St. Lawrence Valley region, Quebec, Canada",earthquake,2.4,8.8,0.148,6,reviewed,us,us
+2021-05-17T11:03:22.854Z,45.8075,-73.5278,12.09,3.3,mb_lg,,95,0.314,0.49,us,us7000e3rp,2023-10-15T05:01:58.062Z,"5 km SW of L'Épiphanie, Canada",earthquake,1.6,6.5,0.062,67,reviewed,us,us
+2021-04-14T03:05:42.708Z,47.5646,-70.2347,11.87,2.5,ml,,103,0.063,0.18,us,us6000e1pz,2021-06-19T21:25:40.040Z,"11 km SSW of La Malbaie, Canada",earthquake,3.6,4.3,0.077,22,reviewed,us,us
+2021-03-14T00:50:03.829Z,44.9518,-75.5209,10.13,2.7,mb_lg,,54,0.181,0.48,us,us7000dj6w,2021-05-26T22:06:55.040Z,"19 km SW of Winchester, Canada",earthquake,2.6,8.2,0.147,12,reviewed,us,us
+2021-01-17T18:37:41.934Z,44.6871,-67.6285,5,2.9,mb_lg,,165,0.123,0.38,us,us7000d0y1,2022-08-11T12:11:08.978Z,"4 km ESE of Centerville, Maine",earthquake,1.8,2,0.295,3,reviewed,us,us
+2020-12-09T12:31:16.046Z,45.0951,-67.1595,7.72,3,ml,,110,0.226,0.2,us,us7000cpfi,2021-02-20T16:10:55.040Z,"4 km WNW of Robbinston, Maine",earthquake,1.4,7.9,0.064,32,reviewed,us,us
+2020-11-08T14:10:06.958Z,41.5208,-70.9546,10,3.6,mwr,,162,0.234,0.72,us,us7000cc4d,2023-11-21T18:59:05.321Z,"10 km S of Bliss Corner, Massachusetts",earthquake,2,1.9,0.05,38,reviewed,us,us
+2020-09-09T06:00:13.553Z,40.3023,-74.2892,5.61,3.1,mb_lg,,146,0.434,0.53,us,us7000bk7f,2022-06-20T15:35:24.405Z,"3 km WSW of Marlboro, New Jersey",earthquake,2,1.5,0.052,96,reviewed,us,us
+2020-05-09T19:04:19.037Z,47.0127,-75.8523,15.64,3.6,mwr,,102,1.198,0.5,us,us70009dfq,2023-10-15T05:01:15.996Z,"46 km NW of Ferme-Neuve, Canada",earthquake,5,3.4,0.086,13,reviewed,us,us
+2020-05-06T15:03:41.193Z,45.0596,-72.8946,14.1,3.1,mb_lg,,100,0.541,0.65,us,us70009b45,2020-07-29T22:14:10.040Z,"9 km SE of Bedford, Canada",earthquake,1.8,8,0.077,44,reviewed,us,us
+2020-04-29T18:43:12.127Z,47.2328,-70.3137,14.52,2.5,ml,,127,0.315,0.48,us,us700097d9,2020-07-18T21:57:05.040Z,"3 km WNW of St-Jean-Port-Joli, Canada",earthquake,2.6,6.9,0.128,8,reviewed,us,us
+2020-04-01T16:47:39.468Z,47.4531,-79.2714,10,2.9,ml,,159,1.259,0.18,us,us70008le8,2020-06-21T00:54:33.040Z,"3 km NE of Saint-Isidore, Canada",earthquake,3.6,2,0.064,32,reviewed,us,us
+2020-03-29T17:04:46.557Z,43.4249,-78.3629,5,2.6,mb_lg,,115,0.268,0.39,us,us70008icf,2020-06-13T18:44:44.040Z,"11 km N of Lyndonville, New York",earthquake,2,1.9,0.208,6,reviewed,us,us
+2020-03-29T07:21:04.745Z,45.8485,-73.528,10.51,3,mb_lg,,85,0.354,0.42,us,us70008i6u,2020-06-13T18:44:39.040Z,"3 km W of L'Épiphanie, Canada",earthquake,3.7,8.6,0.07,53,reviewed,us,us
+2020-03-11T10:43:39.657Z,43.2925,-73.6371,12.55,3.1,mb_lg,,51,0.094,0.32,us,us60008dlh,2021-03-02T19:11:41.452Z,"0 km SSW of South Glens Falls, New York",earthquake,2.1,4.3,0.058,78,reviewed,us,us
+2020-03-09T18:57:15.778Z,43.2839,-69.8363,11.52,2.7,mb_lg,,150,0.937,0.24,us,us60008cmq,2021-08-06T03:39:02.156Z,"50 km ESE of Old Orchard Beach, Maine",earthquake,1.7,7.8,0.128,16,reviewed,us,us
+2020-03-06T08:22:16.586Z,45.6077,-73.5634,9.88,2.7,mb_lg,,147,0.115,0.65,us,us60008awg,2021-05-17T11:26:28.225Z,"3 km NE of Saint-Léonard, Canada",earthquake,2.3,1.8,0.124,17,reviewed,us,us
+2020-02-07T10:41:44.212Z,46.3509,-75.1225,12.07,2.5,ml,,101,0.418,0.41,us,us70007ksi,2020-04-25T22:18:26.040Z,"18 km NW of La Minerve, Canada",earthquake,3.6,3.1,0.077,22,reviewed,us,us
+2020-02-02T20:06:40.226Z,46.473,-76.1153,15.37,2.7,mb_lg,,96,1.113,0.4,us,us60007mwm,2020-04-18T22:10:17.040Z,"10 km WSW of Saint-Boniface, Canada",earthquake,4,7.9,0.18,8,reviewed,us,us
+2020-01-13T10:37:59.295Z,44.993,-73.9659,6.41,3.4,mb_lg,,71,0.562,0.28,us,us70006z44,2023-09-11T08:11:41.394Z,"5 km SW of Franklin, Canada",earthquake,1.4,3.4,0.062,67,reviewed,us,us

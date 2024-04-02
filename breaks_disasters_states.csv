@@ -1,0 +1,540 @@
+month,stateCode,incidentType,break_Frequency
+10,VT,Flood,1
+6,VT,Flood,0
+9,NH,Flood,0
+12,PA,Flood,5
+8,RI,Hurricane,0
+8,NY,Hurricane,11
+9,MA,Hurricane,0
+9,ME,Hurricane,2
+9,ME,Flood,2
+9,ME,Flood,2
+8,NJ,Severe Storm,4
+7,NY,Severe Storm,9
+7,VT,Flood,0
+7,VT,Flood,0
+7,ME,Flood,2
+4,RI,Fire,0
+3,ME,Severe Storm,4
+3,VT,Severe Storm,1
+3,NY,Snowstorm,2
+3,NH,Severe Storm,0
+12,NY,Winter Storm,4
+11,NY,Winter Storm,8
+5,RI,Snowstorm,0
+4,MA,Snowstorm,1
+3,ME,Coastal Storm,4
+10,CT,Hurricane,4
+10,NY,Hurricane,4
+10,NH,Flood,0
+9,NH,Severe Storm,0
+9,VT,Flood,0
+9,PA,Hurricane,1
+9,NY,Hurricane,0
+9,NJ,Hurricane,1
+9,NJ,Hurricane,1
+9,NY,Hurricane,0
+8,VT,Hurricane,0
+8,MA,Hurricane,3
+8,CT,Hurricane,4
+4,NJ,Snowstorm,0
+1,CT,Hurricane,2
+12,NJ,Hurricane,1
+10,NY,Hurricane,4
+8,CT,Hurricane,4
+4,VT,Biological,0
+4,ME,Biological,3
+4,NH,Biological,0
+3,PA,Biological,2
+3,RI,Biological,0
+3,CT,Biological,5
+3,MA,Biological,0
+3,NJ,Biological,3
+3,NY,Biological,2
+3,NY,Biological,2
+3,RI,Biological,0
+3,NY,Biological,2
+3,ME,Biological,4
+3,MA,Biological,0
+3,MA,Biological,0
+3,NJ,Biological,3
+3,NH,Biological,0
+3,ME,Biological,4
+3,PA,Biological,2
+3,RI,Biological,0
+3,CT,Biological,5
+3,MA,Biological,0
+3,VT,Biological,1
+3,NY,Biological,2
+1,VT,Severe Storm,0
+12,NY,Severe Storm,4
+8,NH,Severe Storm,0
+6,VT,Flood,0
+12,CT,Severe Storm,3
+11,PA,Severe Storm,1
+10,NY,Flood,4
+8,CT,Tornado,4
+7,VT,Severe Storm,0
+7,MA,Snowstorm,1
+6,MA,Severe Storm,0
+6,NH,Snowstorm,0
+6,NH,Coastal Storm,0
+6,NJ,Severe Storm,3
+5,ME,Coastal Storm,1
+1,VT,Severe Storm,0
+1,NH,Severe Storm,5
+1,ME,Severe Storm,3
+11,NY,Flood,8
+8,VT,Severe Storm,0
+8,NH,Severe Storm,0
+7,NY,Snowstorm,9
+6,NH,Severe Storm,0
+4,NH,Fire,0
+3,PA,Snowstorm,2
+3,NJ,Severe Storm,3
+7,VT,Severe Storm,0
+7,NJ,Severe Storm,1
+4,MA,Severe Storm,1
+4,CT,Severe Storm,2
+4,RI,Severe Storm,0
+3,NH,Severe Storm,0
+3,ME,Snowstorm,4
+2,VT,Severe Storm,0
+12,NY,Snowstorm,4
+7,NY,Severe Storm,9
+6,VT,Flood,0
+2,PA,Severe Ice Storm,5
+1,VT,Severe Ice Storm,0
+10,PA,Severe Storm,3
+8,NH,Severe Storm,0
+8,VT,Flood,0
+7,NY,Flood,9
+4,NY,Severe Storm,4
+4,MA,Severe Storm,1
+4,MA,Terrorist,1
+3,ME,Severe Storm,4
+3,RI,Severe Storm,0
+3,CT,Severe Storm,5
+3,NH,Severe Storm,0
+2,CT,Severe Storm,2
+1,PA,Hurricane,4
+12,MA,Hurricane,3
+11,NH,Hurricane,1
+11,RI,Hurricane,0
+10,CT,Hurricane,4
+10,NJ,Hurricane,1
+10,NY,Hurricane,4
+10,NH,Hurricane,0
+10,RI,Hurricane,0
+10,PA,Hurricane,3
+10,NJ,Hurricane,1
+10,CT,Hurricane,4
+10,MA,Hurricane,1
+10,NY,Hurricane,4
+7,NJ,Severe Storm,1
+6,VT,Severe Storm,0
+6,NH,Severe Storm,0
+1,MA,Severe Storm,2
+12,NH,Severe Storm,0
+11,NJ,Severe Storm,0
+11,CT,Severe Storm,2
+11,VT,Severe Storm,0
+11,NH,Severe Storm,1
+11,MA,Severe Storm,2
+10,CT,Severe Storm,4
+10,NJ,Severe Storm,1
+9,NJ,Severe Storm,1
+9,ME,Hurricane,2
+9,NY,Severe Storm,0
+9,PA,Flood,1
+9,NY,Severe Storm,0
+9,PA,Flood,1
+9,MA,Hurricane,0
+9,RI,Hurricane,0
+9,PA,Hurricane,1
+9,NH,Hurricane,0
+9,CT,Hurricane,1
+9,VT,Hurricane,0
+8,NJ,Hurricane,4
+8,NY,Hurricane,11
+8,PA,Hurricane,2
+8,VT,Hurricane,0
+8,RI,Hurricane,0
+8,NH,Hurricane,0
+8,NJ,Hurricane,4
+8,CT,Hurricane,4
+8,MA,Hurricane,3
+8,NY,Hurricane,11
+7,NH,Flood,0
+7,PA,Severe Storm,6
+7,VT,Severe Storm,0
+6,VT,Severe Storm,0
+6,MA,Tornado,0
+6,NY,Flood,2
+3,MA,Snowstorm,0
+3,CT,Snowstorm,5
+2,NY,Severe Storm,4
+2,NJ,Snowstorm,2
+2,ME,Severe Storm,2
+12,VT,Severe Storm,0
+10,NY,Tornado,4
+9,MA,Hurricane,0
+7,ME,Severe Storm,2
+5,NH,Severe Storm,2
+5,MA,Other,0
+4,CT,Severe Storm,2
+4,NY,Severe Storm,4
+4,PA,Snowstorm,3
+4,NJ,Severe Storm,0
+3,RI,Severe Storm,0
+3,MA,Severe Storm,0
+3,RI,Severe Storm,0
+3,NH,Severe Storm,0
+3,ME,Severe Storm,4
+3,NJ,Snowstorm,3
+2,NJ,Snowstorm,2
+12,NY,Severe Storm,4
+12,NJ,Severe Storm,1
+9,NY,Severe Storm,0
+7,ME,Severe Storm,2
+3,NY,Severe Storm,2
+1,VT,Severe Ice Storm,0
+1,ME,Severe Storm,3
+1,MA,Severe Ice Storm,2
+1,NH,Severe Ice Storm,5
+12,NY,Severe Storm,4
+12,ME,Severe Storm,1
+12,NH,Severe Storm,0
+12,MA,Severe Storm,3
+10,NH,Severe Storm,0
+9,VT,Severe Storm,0
+9,ME,Severe Storm,2
+9,NH,Severe Storm,0
+8,VT,Severe Storm,0
+8,NH,Severe Storm,0
+7,VT,Severe Storm,0
+5,ME,Flood,1
+8,NY,Severe Storm,11
+8,ME,Severe Storm,4
+8,VT,Severe Storm,0
+7,NY,Severe Storm,9
+5,RI,Severe Storm,0
+5,MA,Severe Storm,0
+5,NJ,Fire,0
+5,CT,Severe Storm,0
+5,VT,Severe Storm,0
+4,NH,Severe Storm,0
+4,NJ,Severe Storm,0
+4,ME,Severe Storm,3
+4,NY,Severe Storm,4
+4,ME,Flood,3
+2,NY,Snowstorm,4
+2,PA,Severe Storm,5
+12,NY,Severe Storm,4
+10,NY,Severe Storm,4
+10,NY,Snowstorm,4
+7,NJ,Severe Storm,1
+7,NY,Severe Storm,9
+6,PA,Severe Storm,2
+5,ME,Severe Storm,1
+5,NH,Severe Storm,2
+5,MA,Severe Storm,0
+5,CT,Snowstorm,0
+2,ME,Snowstorm,2
+12,CT,Severe Storm,3
+11,MA,Severe Storm,2
+10,NH,Severe Storm,0
+10,MA,Severe Storm,1
+9,NY,Hurricane,0
+9,NH,Hurricane,0
+9,NJ,Hurricane,1
+9,ME,Hurricane,2
+9,RI,Hurricane,0
+9,CT,Hurricane,1
+9,MA,Hurricane,0
+9,PA,Hurricane,1
+6,ME,Severe Storm,2
+4,NH,Snowstorm,0
+4,ME,Snowstorm,3
+4,NY,Severe Storm,4
+4,NJ,Severe Storm,0
+4,PA,Severe Storm,3
+4,ME,Snowstorm,3
+3,NH,Snowstorm,0
+3,NH,Snowstorm,0
+3,ME,Snowstorm,4
+3,ME,Snowstorm,4
+2,RI,Snowstorm,1
+2,MA,Snowstorm,2
+2,CT,Snowstorm,2
+10,NY,Severe Storm,4
+10,NY,Severe Storm,4
+10,NJ,Severe Storm,1
+9,VT,Severe Storm,0
+9,PA,Hurricane,1
+9,PA,Severe Storm,1
+8,PA,Severe Storm,2
+8,NY,Severe Storm,11
+7,NJ,Severe Storm,1
+4,MA,Flood,1
+3,NY,Snowstorm,2
+2,ME,Severe Storm,2
+1,ME,Snowstorm,3
+1,NH,Snowstorm,5
+1,CT,Snowstorm,2
+1,MA,Snowstorm,2
+1,ME,Snowstorm,3
+12,MA,Fire,3
+9,PA,Severe Storm,1
+9,NJ,Other,1
+9,NH,Severe Storm,0
+9,VT,Severe Storm,0
+8,NY,Severe Storm,11
+8,NY,Other,11
+8,PA,Severe Storm,2
+5,ME,Freezing,1
+5,NY,Severe Ice Storm,3
+3,NY,Snowstorm,2
+3,RI,Snowstorm,0
+3,NJ,Snowstorm,3
+3,PA,Severe Storm,2
+3,NH,Snowstorm,0
+3,CT,Snowstorm,5
+3,MA,Snowstorm,0
+3,ME,Snowstorm,4
+2,NY,Snowstorm,4
+7,VT,Severe Storm,0
+6,NJ,Fire,3
+5,NY,Earthquake,3
+3,NY,Snowstorm,2
+12,NY,Snowstorm,4
+9,NJ,Fire,1
+9,NY,Fire,0
+6,PA,Severe Storm,2
+5,ME,Severe Storm,1
+4,VT,Snowstorm,0
+4,MA,Severe Storm,1
+3,NH,Snowstorm,0
+3,MA,Snowstorm,0
+3,ME,Snowstorm,4
+1,VT,Severe Storm,0
+12,NY,Snowstorm,4
+11,NJ,Other,0
+10,NY,Other,4
+8,NJ,Severe Storm,4
+7,VT,Severe Storm,0
+7,NY,Severe Storm,9
+4,ME,Severe Storm,3
+11,ME,Hurricane,3
+11,VT,Severe Storm,0
+10,NH,Hurricane,0
+9,CT,Hurricane,1
+9,PA,Flood,1
+9,NY,Hurricane,0
+9,PA,Hurricane,1
+9,NJ,Hurricane,1
+9,NY,Hurricane,0
+9,NJ,Hurricane,1
+9,PA,Severe Storm,1
+8,NY,Fire,11
+3,NY,Snowstorm,2
+1,ME,Severe Storm,3
+1,NY,Snowstorm,2
+9,NY,Severe Storm,0
+7,NY,Severe Storm,9
+7,ME,Severe Storm,2
+7,NH,Severe Storm,0
+6,VT,Severe Storm,0
+6,MA,Flood,0
+6,NY,Severe Storm,2
+6,PA,Severe Storm,2
+3,NJ,Coastal Storm,3
+1,VT,Severe Storm,0
+1,NH,Severe Storm,5
+1,ME,Severe Storm,3
+1,NY,Snowstorm,2
+9,NJ,Severe Storm,1
+7,VT,Flood,0
+12,PA,Flood,5
+12,NY,Severe Storm,4
+11,RI,Other,0
+11,NY,Severe Storm,8
+11,NJ,Severe Storm,0
+10,NH,Flood,0
+10,ME,Flood,3
+10,MA,Flood,1
+10,ME,Severe Storm,3
+10,MA,Flood,1
+9,PA,Flood,1
+7,PA,Flood,6
+6,VT,Flood,0
+6,PA,Flood,2
+5,ME,Severe Storm,1
+3,ME,Severe Storm,4
+2,VT,Flood,0
+1,NY,Flood,2
+1,CT,Snowstorm,2
+1,RI,Snowstorm,0
+1,MA,Snowstorm,2
+1,PA,Flood,4
+1,NJ,Snowstorm,0
+1,PA,Snowstorm,4
+1,NY,Snowstorm,2
+1,NH,Flood,5
+9,MA,Fire,0
+8,NY,Fire,11
+8,VT,Severe Storm,0
+5,ME,Flood,1
+3,PA,Severe Storm,2
+5,VT,Flood,0
+5,ME,Flood,1
+4,NY,Human Cause,4
+3,NY,Snowstorm,2
+3,NJ,Snowstorm,3
+3,PA,Snowstorm,2
+3,MA,Snowstorm,0
+3,RI,Snowstorm,0
+3,NH,Snowstorm,0
+3,CT,Snowstorm,5
+3,ME,Snowstorm,4
+12,MA,Coastal Storm,3
+12,NY,Flood,4
+12,NJ,Flood,1
+12,CT,Flood,3
+9,RI,Toxic Substances,0
+5,ME,Fire,1
+3,ME,Flood,4
+3,VT,Flood,1
+3,NJ,Severe Storm,3
+11,NH,Coastal Storm,1
+11,ME,Coastal Storm,3
+11,MA,Coastal Storm,2
+9,NY,Hurricane,0
+9,NH,Hurricane,0
+8,CT,Hurricane,4
+8,ME,Hurricane,4
+8,MA,Hurricane,3
+8,RI,Hurricane,0
+4,ME,Snowstorm,3
+3,NY,Snowstorm,2
+8,NH,Flood,0
+7,VT,Flood,0
+9,VT,Flood,0
+7,CT,Tornado,0
+6,ME,Flood,2
+11,NY,Snowstorm,8
+5,NY,Flood,3
+4,MA,Flood,1
+4,NH,Flood,0
+4,ME,Flood,3
+8,NH,Flood,0
+6,PA,Flood,2
+11,PA,Flood,1
+10,MA,Hurricane,1
+10,NY,Hurricane,4
+10,NJ,Hurricane,1
+10,RI,Hurricane,0
+10,CT,Hurricane,4
+10,PA,Hurricane,3
+6,PA,Tornado,2
+3,NY,Snowstorm,2
+3,NY,Flood,2
+9,NY,Flood,0
+8,PA,Flood,2
+6,VT,Flood,0
+6,CT,Flood,1
+4,NY,Flood,4
+4,NJ,Flood,0
+6,CT,Flood,1
+12,MA,Fire,3
+6,PA,Flood,2
+10,NJ,Drought,1
+9,ME,Fishing Losses,2
+8,PA,Flood,2
+6,PA,Tornado,2
+5,NY,Toxic Substances,3
+10,CT,Tornado,4
+3,NH,Flood,0
+8,NY,Toxic Substances,11
+2,ME,Flood,2
+2,NH,Flood,1
+2,RI,Snowstorm,1
+2,MA,Flood,2
+2,CT,Snowstorm,2
+2,MA,Snowstorm,2
+2,RI,Snowstorm,1
+9,VT,Drought,0
+7,ME,Fire,2
+7,PA,Flood,6
+2,NJ,Severe Ice Storm,2
+2,NY,Snowstorm,4
+1,NY,Snowstorm,2
+1,PA,Snowstorm,4
+10,PA,Flood,3
+9,NY,Hurricane,0
+8,NJ,Flood,4
+8,VT,Flood,0
+7,NY,Flood,9
+7,PA,Flood,6
+6,NY,Flood,2
+3,NY,Severe Ice Storm,2
+10,NY,Flood,4
+9,PA,Flood,1
+7,NJ,Flood,1
+12,NJ,Coastal Storm,1
+11,NY,Flood,8
+7,NY,Flood,9
+1,NH,Flood,5
+1,ME,Flood,3
+10,MA,Fire,1
+8,NJ,Flood,4
+7,NY,Flood,9
+7,PA,Flood,6
+7,NH,Flood,0
+7,VT,Flood,0
+5,ME,Flood,1
+3,NY,Flood,2
+9,MA,Fishing Losses,0
+9,ME,Fishing Losses,2
+9,PA,Flood,1
+6,PA,Flood,2
+6,NY,Flood,2
+3,NH,Coastal Storm,0
+3,ME,Flood,4
+3,MA,Flood,0
+9,PA,Flood,1
+9,NY,Flood,0
+9,NJ,Flood,1
+7,NY,Flood,9
+2,ME,Flood,2
+8,VT,Flood,0
+8,NY,Flood,11
+8,PA,Flood,2
+6,NJ,Flood,3
+10,NY,Flood,4
+8,PA,Drought,2
+8,NJ,Drought,4
+8,NY,Drought,11
+3,VT,Flood,1
+11,VT,Drought,0
+8,NY,Flood,11
+3,NY,Flood,2
+3,NJ,Flood,3
+1,PA,Flood,4
+8,PA,Severe Storm,2
+5,PA,Severe Storm,10
+3,NY,Flood,2
+3,PA,Flood,2
+8,NY,Hurricane,11
+8,MA,Hurricane,3
+8,CT,Hurricane,4
+8,NJ,Hurricane,4
+8,PA,Flood,2
+8,RI,Hurricane,0
+10,NY,Hurricane,4
+9,CT,Hurricane,1
+9,ME,Hurricane,2
+9,RI,Hurricane,0
+9,MA,Hurricane,0
+7,NH,Fire,0
+6,MA,Tornado,0
